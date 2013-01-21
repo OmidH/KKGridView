@@ -911,9 +911,9 @@ struct KKSectionMetrics {
     point.y += (row * (_cellSize.height + _cellPadding.height));
     point.x += (column * (_cellSize.width + _cellPadding.width));
 
-    if (indexPath.section == 1) {
-        NSLog(@"%@", NSStringFromCGRect(CGRectIntegral((CGRect){point, _cellSize})));
-    }
+//    if (indexPath.section == 1) {
+//        NSLog(@"%@", NSStringFromCGRect(CGRectIntegral((CGRect){point, _cellSize})));
+//    }
     
     return CGRectIntegral((CGRect){point, _cellSize});
 }
